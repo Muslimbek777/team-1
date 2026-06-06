@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header-box {
+  padding-top: 48px;
+  padding-bottom: 78px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+.header-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
+}
+.header-ul_li__site {
+  text-decoration-line: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #9e9aa8;
+}
+.boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.boxs-btn {
+  border: none;
+  background-color: transparent;
+  width: 105px;
+  height: 40px;
+  border-radius: 28px;
+  padding: 8px 23px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #9e9aa8;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.boxs-btn:hover {
+  background-color: #9e9aa8;
+  color: #fff;
+}
+.boxs-btns {
+  border: none;
+  width: 105px;
+  height: 40px;
+  border-radius: 28px;
+  padding: 8px 23px;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #2bd0d0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border: 1px solid #2bd0d0;
+}
+.boxs-btns:hover {
+  background-color: #fff;
+  color: #2bd0d0;
+  border: 1px solid #2bd0d0;
+}
+.main-section {
+  padding-bottom: 152px;
+}
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-boxs {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  gap: 115px;
+}
+.main-boxs_name {
+  font-weight: 700;
+  font-size: 80px;
+  color: #34313d;
+}
+.main-boxs_btn {
+  border: none;
+  border-radius: 28px;
+  background-color: #2bd0d0;
+  color: #fff;
+  width: 197px;
+  padding: 12px 40px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #2bd0d0;
+  transition: all 0.2s linear;
+}
+.main-boxs_btn:hover {
+  border: 1px solid #2bd0d0;
+  color: #2bd0d0;
+  background-color: #fff;
+}
