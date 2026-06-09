@@ -121,3 +121,148 @@ body {
   color: #2bd0d0;
   background-color: #fff;
 }
+.main-card-hero {
+  text-align: center;
+}
+
+.main-title {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  color: #34313d;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.main-text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: #9e9aa8;
+  line-height: 32px;
+  letter-spacing: 0.12px;
+  text-align: center;
+}
+
+.cards-hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+}
+
+.cards:nth-child(1) {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  left: 70px;
+  top: 30px;
+}
+
+.cards:nth-child(2) {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  left: 460px;
+  top: 70px;
+}
+.cards:nth-child(3) {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  left: 850px;
+  top: 130px;
+}
+
+.cards-title {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #34313d;
+}
+
+.cards-text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #9e9aa8;
+}
+
+.bg {
+  background-image: url("./pictres/Path 2.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 220px;
+  position: absolute;
+  top: 700px;
+  left: 30px;
+}
+
+.started-hero {
+  text-align: center;
+}
+
+.started-title {
+  margin-top: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #fff;
+}
+
+.started-btn {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  line-height: 100%;
+  letter-spacing: 0px;
+  background-color: #2bd0d0;
+  border-radius: 28px;
+  border: none;
+  padding: 20px 35px;
+}
+
+footer {
+  position: absolute;
+  left: 30px;
+  top: 920px;
+  background-color: #232127;
+}
+
+.footer-hero {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pagess h2 {
+  color: #fff;
+
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.pages h3 {
+  color: #fff;
+}
+
+.pages p {
+  color: #bfbfbf;
+}
